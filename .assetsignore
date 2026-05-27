@@ -1,0 +1,30 @@
+# Archivos que Cloudflare Pages NO debe desplegar
+# (mismo motivo que .gitignore: son binarios de otras plataformas)
+
+# Binarios grandes (> 25 MiB, límite de Cloudflare Pages)
+*.exe
+*.tar.bz2
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Builds específicos del proyecto
+Pescaito Tour.tar.bz2
+Pescaito Tour_quest3.ts
+Pescaito Tour_Windows.exe
+Pescaito Tour_*.exe
+Pescaito Tour_*.ts
+Pescaito Tour_*.apk
+Pescaito Tour_*.tar.bz2
+
+# Metadatos de control de versiones
+.git
+.gitignore
+.github
+
+# Documentación del repo (no se necesita en producción)
+README.md
+
+# Logs
+*.log
